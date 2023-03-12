@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.top {
+    text-align: center;
+    padding: 50px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.title {
+    font-size: 35px;
+}
+
+.top__form {
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 20px;
+    padding-bottom: 45px;
+}
+
+.top__form input {
+    padding: 5px;
+    margin: 0 10px;
+}
+
+::placeholder {
+    font-size: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #17a2b8;
+    font-weight: 500;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #136d7b;
+}
+
+.top__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.top__card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 35px 0;
+    max-width: 250px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.top__card-calc {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.bottom {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.bottom__form {
+    padding-top: 30px;
+}
+
+.form-input {
+    padding-bottom: 30px;
+}
+
+.form-input input {
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+.convert-temp {
+    padding-bottom: 30px;
+}
+
+.convert-text {
+    font-weight: 600;
+}
